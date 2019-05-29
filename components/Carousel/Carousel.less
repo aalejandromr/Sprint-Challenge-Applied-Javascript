@@ -36,6 +36,17 @@
   }
   img {
     .width-100();
-    display: none;
+    // display: none;
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+  }
+  
+  .display-block {
+    // display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
   }
 }
